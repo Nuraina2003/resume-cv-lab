@@ -1,0 +1,96 @@
+html {
+    display: block;
+}
+head {
+    display: none;
+}
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+  }
+body {
+    display: block;
+    margin: 8px;
+}
+a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: blue;
+  }
+  
+  a:visited {
+    color: grey;
+  }
+  
+  .avatar {
+    float:left;
+    width: 200px;
+    border-radius: 20%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  }
+  
+  .info {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  
+  .header {
+    position: relative;
+    height: 400px;
+    color: #f1f1f1;
+    font-size: 2rem;
+  }  
+  
+ div {
+  background-image: url('images.jpg');
+}
+  .header_front {
+    position: absolute;
+    top: 80%;
+    transform: translateY(-60%);
+    padding: 160px;
+  }
+  
+  .personal_info{
+    display: inline-block;
+    margin-left: 50px;
+  }
+  
+  .social {
+    font-weight: bold;
+  }
+  
+  .card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  .table {
+    width: 100%;
+  }
+  
+  .bg-blue{
+    background: #55cfdf;
+  }
+  
+  .bg-pink{
+    background: #eec5c5;
+  }
+  .bg-orange{
+    background: #e68f79;
+  }
